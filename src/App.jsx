@@ -1,9 +1,10 @@
 import React from "react";
+import CurrencyTable from "./components/CurrencyTable";
 
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-black">
-      <h1 className="text-4xl font-bold text-blue-500">Halo, Vite + React + Tailwind!</h1>
+    <div className="flex justify-center items-center min-h-screen bg-orange-500">
+      <CurrencyTable />
     </div>
   );
 }
